@@ -1,0 +1,69 @@
+fieldset {
+    border: 2px solid rgba(243, 156, 18, 0.49) !important;
+    margin: 0;
+    xmin-width: 0;
+    padding: 10px;       
+    position: relative;
+    border-radius:4px;	
+    padding-left:10px!important;
+    width: 93%;
+}	
+legend{
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom: 0px; 
+    width: 25%; 
+    border: 1px solid #f39c12;
+    border-radius: 4px; 
+    padding: 5px 5px 5px 10px; 
+    background-color: #f39c12;
+}
+select option:disabled {
+    color: #808080;
+}
+div.sawscroll {
+    width: 100%;
+    height: 519px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+#listbox{
+        position: absolute;
+        width: 299px;
+        border: solid 1px #d2d6de;
+        background-color: #f9fafc;
+        display: none;
+        alignment-adjust: right;
+        text-align: left;
+        z-index: 18;
+        overflow-y: scroll;
+        height: 200px;
+        color: #777;
+        font-weight: bold;
+    }
+    #subjectList{
+        position: absolute;
+        width: 550px;
+        border: solid 1px blue;
+        background-color: #f9fafc;
+        display: none;
+        alignment-adjust: right;
+        text-align: left;
+        z-index: 18;
+        overflow-y: scroll;
+        height: 200px;
+    }
+    #listboxTeacher{
+        position: absolute;
+        width: 299px;
+        border: solid 1px #d2d6de;
+        background-color: #f9fafc;
+        display: none;
+        alignment-adjust: right;
+        text-align: left;
+        z-index: 18;
+        overflow-y: scroll;
+        height: 200px;
+        color: #777;
+        font-weight: bold;
+    }
